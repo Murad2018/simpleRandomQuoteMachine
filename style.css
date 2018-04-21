@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "1942";
+    src: url("font/1942");
+    /*font-weight: bold;*/
+}
+body{
+	margin-top: 30px;
+	/*background-image: url("bg.jpg");*/
+	background-color: #cccccc;
+	/*background-size: cover;
+	background-repeat: no-repeat;*/
+}
+#blockquoteBox{
+	margin-top: 40px;
+	border:1px solid gray;
+	height: 650px;
+	width: 1000px;
+	background-image: url("paper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: content-box;
+}
+.blockquote{
+	color: black;
+	font-size: 2em;
+	font-weight: bolder;
+	padding: 40px;
+}
+h1{
+	color: white;
+	font-size: 2em;
+	font-weight: bolder;
+	font-stretch: expanded;
+	padding: 20px 20px;
+	font-family: 1942;
+	box-sizing: border-box;
+	border-bottom: 2px solid gray;
+
+
+}
